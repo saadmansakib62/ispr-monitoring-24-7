@@ -1,0 +1,20 @@
+===========================================================================
+  ISPR NEWS MONITORING SYSTEM - QUICK START GUIDE (WINDOWS / MAC / WEB)
+===========================================================================
+
+1. INSTANT STANDALONE USE (NO INSTALLATION NEEDED):
+   - Double-click "index.html" to open the system directly in Chrome or Edge.
+
+2. RUN WITH PYTHON BACKEND ON WINDOWS:
+   - Double-click "run_windows.bat".
+   - It automatically installs Flask requirements (if Python is installed),
+     starts the local server on http://127.0.0.1:5000, and opens the app.
+
+3. RUN ON MAC / LINUX:
+   - Open terminal in this folder and run:
+     chmod +x run_mac_linux.sh && ./run_mac_linux.sh
+
+4. DEPLOY ONLINE TO GITHUB / RENDER / NETLIFY:
+   - Upload all 11 files in this folder to your GitHub repository.
+   - See DEPLOY_TO_RENDER.md and README.md for step-by-step instructions.
+===========================================================================
